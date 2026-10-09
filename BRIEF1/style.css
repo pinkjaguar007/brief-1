@@ -8,6 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
@@ -174,9 +175,8 @@ button:focus-visible {
 .logo {
   display: flex;
   align-items: center;
-  font-family: 'Poppins', Arial, sans-serif;
-  font-size: 24px;
-  font-weight: 700;
+  width: 170px;
+  height: 170px;
   color: #0F1B2D;
 }
 
@@ -544,4 +544,77 @@ button:focus-visible {
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;
+}
+
+
+
+
+
+
+
+.contact-infos {
+ 
+  gap: 24px;
+  max-width: 600px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  text-align: center;
+  
+}
+
+.contact-FORM{
+
+  flex-direction: column;
+  display: flex;
+  
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  height: 570px;
+  justify-content: space-between;
+
+}
+
+.conteneur-contactus{
+
+
+  display: flex;
+  PADDING: 100PX ;
+
+}
+
+.contacter-nous {
+
+text-align: center;
+
+
+}
+
+
+.contact-FORM input { 
+
+font-size: 40PX;
+
+
+}
+
+
+#bottoncontact{
+
+  background-color:  #FF6B2c; 
+    border: 1px solid #FF6B2C;
+    padding: 10px; 
+    border-radius: 12px;
+    padding: 8px;
+     
+   align-items: center;
+}
+
+#message {
+
+width: 100%;
+
 }
